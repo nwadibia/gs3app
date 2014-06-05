@@ -1,0 +1,26 @@
+<div class="jumbotron center">
+	
+	<% if user_signed_in? %>
+	   # do somthing
+	   <% else %>
+
+		<body background="http://i33.photobucket.com/albums/d77/nwadibia/ScreenShot2014-05-17at115059AM.png"> 
+	    
+		<div id="container">
+	    <div style="background-color: #ffcb05", width: "span">
+			<h1>Greek Shenanigans</h1>
+			<p>Νον-Σεnσιτινε Γρεεκς Ονλy</p>
+			<p>Everything we can't show anywhere else. <p>ΓΡΕΕΚ #TKAP. </p>
+				
+				<div style=" padding-bottom: 30px; border-top-width: 20px; "
+				<p>
+				
+				<!--<%= link_to "Sign in","#", class: "btn btn-default btn-lg"%> -->
+				<%= link_to "Request Invite", new_user_registration_path, class: "btn btn-success btn-lg"%> 
+				</p>
+				</div>
+		</div>
+		</div> 
+	<% end %>
+
+</div>
